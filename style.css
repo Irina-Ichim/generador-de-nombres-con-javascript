@@ -4,12 +4,20 @@
     margin:0;
 }
 body{
-    background-color: #eeeeee;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
 }
 
-h1{
+h1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 650px;
     color: red;
-    text-align: center;
 }
 
 .rotate_01{
@@ -17,18 +25,16 @@ h1{
     position: fixed;
     top: 22%;
     left: 45%;
-    width: 550px;
+    width:550px;
     transform: translateX(-50%);
 
 }
-/*.rotate_01:hover{
-    -webkit-transform: rotate(360deg) translateZ(0);
-}*/
+
 .arrow {
     position: absolute;
     top:14%;
     left: 43.2%;
-    transform: translateX(-50);
+    transform: translateX(-50%);
     color:red;
     font-size: 60px;
     
