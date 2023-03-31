@@ -3,15 +3,7 @@
     box-sizing: border-box;
     margin:0;
 }
-body{
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    overflow: hidden;
-}
+
 
 h1 {
     display: flex;
@@ -19,16 +11,32 @@ h1 {
     margin-bottom: 650px;
     color: red;
 }
-
-.rotate_01{
-    display: block;
-    position: fixed;
-    top: 22%;
-    left: 45%;
-    width:550px;
-    transform: translateX(-50%);
-
+/*.containeruno{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
+img{
+    margin-bottom: 1000px;
+    margin-left: 600px;
+    width: 400px;
+    height: 400px;
+    animation-name: girarb;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    display: inline-block;
+}
+@keyframes girarb{
+    from{
+        transform:rotate(0deg) ;
+    }to{
+        transform:rotate(360deg);
+    }
+}*/
 
 .arrow {
     position: absolute;
@@ -44,7 +52,25 @@ h1 {
     font-size: 50px;
 
 }
-button {
+.box{
+    background-color:darkred;
+    color: chartreuse;
+    font-family: sans-serif;
+    font-size: larger;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    width: 30%;
+    cursor: pointer;
+}
+.btn{
+    background-color: rgb(187, 220, 23);
+    font-family: sans-serif;
+    font-size: medium;
+    color: blueviolet;
+    cursor: pointer;
+}
+.box1 button{
     position: absolute;
     top: 76%;
     left: 45%;
@@ -55,6 +81,5 @@ button {
     width: 70px;
     height: 30px;
     border-radius: 60%;
-    color: orange;
     outline: none;
 }
