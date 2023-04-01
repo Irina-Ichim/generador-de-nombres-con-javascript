@@ -45,11 +45,11 @@ function generate() {
     alert('Game Over')
   }
   
-  let posicionAleatoria = Math.round(Math.random() * (names.length));
+  let posicionAleatoria = Math.round(Math.random() * (names.length -1));
   
   let personaElegida = names[posicionAleatoria];
   console.log(personaElegida);
-  emptyArrayNames.push(names.splice(personaElegida, 1))
+  names.splice(posicionAleatoria, 1) 
   //pintarlo por pantalla
   document.getElementById('result').innerHTML = personaElegida;
   
@@ -58,6 +58,9 @@ function generate() {
 
  
 }
+
+ 
+
 
 
 

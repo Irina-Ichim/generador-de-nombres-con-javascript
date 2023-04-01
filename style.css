@@ -3,15 +3,19 @@
     box-sizing: border-box;
     margin:0;
 }
-
+.containerprincipal{
+    display: flex;
+}
 
 h1 {
+    margin-top: 30px;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 650px;
+    font-family: 'Concert One', cursive;
     color: red;
+    margin-bottom: 70px;;
 }
-/*.containeruno{
+.containeruno{
     position: absolute;
     width: 50%;
     height: 50%;
@@ -20,15 +24,13 @@ h1 {
     display: flex;
 }
 img{
-    margin-bottom: 1000px;
-    margin-left: 600px;
-    width: 400px;
-    height: 400px;
+    margin-top: 120px;
+    margin-left: 1300px;
+    height: 600px;
     animation-name: girarb;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
+    animation-duration: 3s;
     animation-timing-function: linear;
-    display: inline-block;
+    
 }
 @keyframes girarb{
     from{
@@ -36,50 +38,37 @@ img{
     }to{
         transform:rotate(360deg);
     }
-}*/
-
-.arrow {
-    position: absolute;
-    top:14%;
-    left: 43.2%;
-    transform: translateX(-50%);
-    color:red;
-    font-size: 60px;
-    
 }
+
 .arrow::before{
+    position: absolute;
     content: '\1F817';
-    font-size: 50px;
-
+    font-size: 70px;
+    color: red;
+    top: -120px;
+    margin-left: -310px;
 }
-.box{
+
+.box {
+    margin-bottom: 20px;
     background-color:darkred;
     color: chartreuse;
-    font-family: sans-serif;
+    font-family: 'Concert One', cursive;
     font-size: larger;
     display: flex;
     justify-content: space-around;
     align-items:center;
-    width: 30%;
+    width: 20%;
     cursor: pointer;
 }
 .btn{
     background-color: rgb(187, 220, 23);
-    font-family: sans-serif;
+    font-family: 'Concert One', cursive;
     font-size: medium;
     color: blueviolet;
     cursor: pointer;
 }
-.box1 button{
-    position: absolute;
-    top: 76%;
-    left: 45%;
-    transform: translate(-50%, -50%);
-    z-index: 10;
-    background-color:red;
-    cursor: pointer;
-    width: 70px;
-    height: 30px;
-    border-radius: 60%;
-    outline: none;
+
+.findepagina{
+    font-family: 'Concert One', cursive;
 }
